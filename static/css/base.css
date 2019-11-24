@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  padding-top: 40px;
+  /*padding-bottom: 55px;*/
+  /*margin-bottom: 55px;*/
+}
+em ,i{
+    font-style: normal;
+}
+li{
+    list-style: none;
+}
+img{
+    border: 0;
+    vertical-align: middle;
+}
+button{
+    cursor: pointer;
+}
+a{
+    color:#666;
+}
+.hide,.none{
+    display: none;
+}
+.clearfix:after{
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0;
+}
+.clearfix{
+    *zoom:1;
+}
+.w{
+    width: 1200px;
+    margin: auto;
+}
